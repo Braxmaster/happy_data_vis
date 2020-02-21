@@ -1,0 +1,11 @@
+.header {
+    top: 0.3vw;
+    left: 5%;
+    width: 90%;
+    padding: 0.3vw 0vw;
+    margin: auto;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 5px;
+    z-index: 1; /* Place on top */
+  }
