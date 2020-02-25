@@ -10,7 +10,7 @@ worldHappy = [
         "Corruption": 4,
         "Generosity": 47,
         "Log of GDP\nper capita": 22,
-        "Healthy life,\nexpectancy": 27,
+        "Healthy life\nexpectancy": 27,
         "id": "FI"
     },
     {
@@ -24,8 +24,8 @@ worldHappy = [
         "Corruption": 3,
         "Generosity": 22,
         "Log of GDP\nper capita": 14,
-        "Healthy life,\nexpectancy": 23,
-        "ID": ""
+        "Healthy life\nexpectancy": 23,
+        "id": "DK"
     },
     {
         "Country (region)": "Norway",
@@ -38,8 +38,8 @@ worldHappy = [
         "Corruption": 8,
         "Generosity": 11,
         "Log of GDP\nper capita": 7,
-        "Healthy life,\nexpectancy": 12,
-        "ID": ""
+        "Healthy life\nexpectancy": 12,
+        "id": "NO"
     },
     {
         "Country (region)": "Iceland",
@@ -52,8 +52,8 @@ worldHappy = [
         "Corruption": 45,
         "Generosity": 3,
         "Log of GDP\nper capita": 15,
-        "Healthy life,\nexpectancy": 13,
-        "ID": ""
+        "Healthy life\nexpectancy": 13,
+        "id": "IS"
     },
     {
         "Country (region)": "Netherlands",
@@ -66,8 +66,8 @@ worldHappy = [
         "Corruption": 12,
         "Generosity": 7,
         "Log of GDP\nper capita": 12,
-        "Healthy life,\nexpectancy": 18,
-        "ID": ""
+        "Healthy life\nexpectancy": 18,
+        "id": "NL"
     },
     {
         "Country (region)": "Switzerland",
@@ -80,8 +80,8 @@ worldHappy = [
         "Corruption": 7,
         "Generosity": 16,
         "Log of GDP\nper capita": 8,
-        "Healthy life,\nexpectancy": 4,
-        "ID": ""
+        "Healthy life\nexpectancy": 4,
+        "id": "CH"
     },
     {
         "Country (region)": "Sweden",
@@ -94,8 +94,8 @@ worldHappy = [
         "Corruption": 6,
         "Generosity": 17,
         "Log of GDP\nper capita": 13,
-        "Healthy life,\nexpectancy": 17,
-        "ID": ""
+        "Healthy life\nexpectancy": 17,
+        "id": "SE"
     },
     {
         "Country (region)": "New Zealand",
@@ -108,8 +108,8 @@ worldHappy = [
         "Corruption": 5,
         "Generosity": 8,
         "Log of GDP\nper capita": 26,
-        "Healthy life,\nexpectancy": 14,
-        "ID": ""
+        "Healthy life\nexpectancy": 14,
+        "id": "NZ"
     },
     {
         "Country (region)": "Canada",
@@ -122,8 +122,8 @@ worldHappy = [
         "Corruption": 11,
         "Generosity": 14,
         "Log of GDP\nper capita": 19,
-        "Healthy life,\nexpectancy": 8,
-        "ID": ""
+        "Healthy life\nexpectancy": 8,
+        "id": "CA"
     },
     {
         "Country (region)": "Austria",
@@ -136,8 +136,8 @@ worldHappy = [
         "Corruption": 19,
         "Generosity": 25,
         "Log of GDP\nper capita": 16,
-        "Healthy life,\nexpectancy": 15,
-        "ID": ""
+        "Healthy life\nexpectancy": 15,
+        "id": "AT"
     },
     {
         "Country (region)": "Australia",
@@ -150,8 +150,8 @@ worldHappy = [
         "Corruption": 13,
         "Generosity": 6,
         "Log of GDP\nper capita": 18,
-        "Healthy life,\nexpectancy": 10,
-        "ID": ""
+        "Healthy life\nexpectancy": 10,
+        "id": "AU"
     },
     {
         "Country (region)": "Costa Rica",
@@ -164,8 +164,8 @@ worldHappy = [
         "Corruption": 58,
         "Generosity": 75,
         "Log of GDP\nper capita": 67,
-        "Healthy life,\nexpectancy": 28,
-        "ID": ""
+        "Healthy life\nexpectancy": 28,
+        "id": "CR"
     },
     {
         "Country (region)": "Israel",
@@ -178,8 +178,8 @@ worldHappy = [
         "Corruption": 74,
         "Generosity": 24,
         "Log of GDP\nper capita": 31,
-        "Healthy life,\nexpectancy": 11,
-        "ID": ""
+        "Healthy life\nexpectancy": 11,
+        "id": "IL"
     },
     {
         "Country (region)": "Luxembourg",
@@ -192,8 +192,8 @@ worldHappy = [
         "Corruption": 9,
         "Generosity": 30,
         "Log of GDP\nper capita": 2,
-        "Healthy life,\nexpectancy": 16,
-        "ID": ""
+        "Healthy life\nexpectancy": 16,
+        "id": "LU"
     },
     {
         "Country (region)": "United Kingdom",
@@ -206,8 +206,8 @@ worldHappy = [
         "Corruption": 15,
         "Generosity": 4,
         "Log of GDP\nper capita": 23,
-        "Healthy life,\nexpectancy": 24,
-        "ID": ""
+        "Healthy life\nexpectancy": 24,
+        "id": "GB"
     },
     {
         "Country (region)": "Ireland",
@@ -220,8 +220,8 @@ worldHappy = [
         "Corruption": 10,
         "Generosity": 9,
         "Log of GDP\nper capita": 6,
-        "Healthy life,\nexpectancy": 20,
-        "ID": ""
+        "Healthy life\nexpectancy": 20,
+        "id": "IE"
     },
     {
         "Country (region)": "Germany",
@@ -234,8 +234,8 @@ worldHappy = [
         "Corruption": 17,
         "Generosity": 19,
         "Log of GDP\nper capita": 17,
-        "Healthy life,\nexpectancy": 25,
-        "ID": ""
+        "Healthy life\nexpectancy": 25,
+        "id": "DE"
     },
     {
         "Country (region)": "Belgium",
@@ -248,8 +248,8 @@ worldHappy = [
         "Corruption": 20,
         "Generosity": 44,
         "Log of GDP\nper capita": 21,
-        "Healthy life,\nexpectancy": 26,
-        "ID": ""
+        "Healthy life\nexpectancy": 26,
+        "id": "BE"
     },
     {
         "Country (region)": "United States",
@@ -262,8 +262,8 @@ worldHappy = [
         "Corruption": 42,
         "Generosity": 12,
         "Log of GDP\nper capita": 10,
-        "Healthy life,\nexpectancy": 39,
-        "ID": ""
+        "Healthy life\nexpectancy": 39,
+        "id": "US"
     },
     {
         "Country (region)": "Czech Republic",
@@ -276,8 +276,8 @@ worldHappy = [
         "Corruption": 121,
         "Generosity": 117,
         "Log of GDP\nper capita": 32,
-        "Healthy life,\nexpectancy": 31,
-        "ID": ""
+        "Healthy life\nexpectancy": 31,
+        "id": "CZ"
     },
     {
         "Country (region)": "United Arab Emirates",
@@ -290,8 +290,8 @@ worldHappy = [
         "Corruption": "",
         "Generosity": 15,
         "Log of GDP\nper capita": 4,
-        "Healthy life,\nexpectancy": 60,
-        "ID": ""
+        "Healthy life\nexpectancy": 60,
+        "id": "AE"
     },
     {
         "Country (region)": "Malta",
@@ -304,8 +304,8 @@ worldHappy = [
         "Corruption": 32,
         "Generosity": 5,
         "Log of GDP\nper capita": 28,
-        "Healthy life,\nexpectancy": 19,
-        "ID": ""
+        "Healthy life\nexpectancy": 19,
+        "id": "MT"
     },
     {
         "Country (region)": "Mexico",
@@ -318,8 +318,8 @@ worldHappy = [
         "Corruption": 87,
         "Generosity": 120,
         "Log of GDP\nper capita": 57,
-        "Healthy life,\nexpectancy": 46,
-        "ID": ""
+        "Healthy life\nexpectancy": 46,
+        "id": "MX"
     },
     {
         "Country (region)": "France",
@@ -332,8 +332,8 @@ worldHappy = [
         "Corruption": 21,
         "Generosity": 68,
         "Log of GDP\nper capita": 25,
-        "Healthy life,\nexpectancy": 5,
-        "ID": ""
+        "Healthy life\nexpectancy": 5,
+        "id": "FR"
     },
     {
         "Country (region)": "Taiwan",
@@ -346,8 +346,8 @@ worldHappy = [
         "Corruption": 56,
         "Generosity": 56,
         "Log of GDP\nper capita": "",
-        "Healthy life,\nexpectancy": "",
-        "ID": ""
+        "Healthy life\nexpectancy": "",
+        "id": "TW"
     },
     {
         "Country (region)": "Chile",
@@ -360,8 +360,8 @@ worldHappy = [
         "Corruption": 99,
         "Generosity": 45,
         "Log of GDP\nper capita": 49,
-        "Healthy life,\nexpectancy": 30,
-        "ID": ""
+        "Healthy life\nexpectancy": 30,
+        "id": "CL"
     },
     {
         "Country (region)": "Guatemala",
@@ -374,8 +374,8 @@ worldHappy = [
         "Corruption": 82,
         "Generosity": 78,
         "Log of GDP\nper capita": 99,
-        "Healthy life,\nexpectancy": 85,
-        "ID": ""
+        "Healthy life\nexpectancy": 85,
+        "id": "GT"
     },
     {
         "Country (region)": "Saudi Arabia",
@@ -388,8 +388,8 @@ worldHappy = [
         "Corruption": "",
         "Generosity": 82,
         "Log of GDP\nper capita": 11,
-        "Healthy life,\nexpectancy": 74,
-        "ID": ""
+        "Healthy life\nexpectancy": 74,
+        "id": "SA"
     },
     {
         "Country (region)": "Qatar",
@@ -402,8 +402,8 @@ worldHappy = [
         "Corruption": "",
         "Generosity": "",
         "Log of GDP\nper capita": 1,
-        "Healthy life,\nexpectancy": 43,
-        "ID": ""
+        "Healthy life\nexpectancy": 43,
+        "id": "QA"
     },
     {
         "Country (region)": "Spain",
@@ -416,8 +416,8 @@ worldHappy = [
         "Corruption": 78,
         "Generosity": 50,
         "Log of GDP\nper capita": 30,
-        "Healthy life,\nexpectancy": 3,
-        "ID": ""
+        "Healthy life\nexpectancy": 3,
+        "id": "ES"
     },
     {
         "Country (region)": "Panama",
@@ -430,8 +430,8 @@ worldHappy = [
         "Corruption": 104,
         "Generosity": 88,
         "Log of GDP\nper capita": 51,
-        "Healthy life,\nexpectancy": 33,
-        "ID": ""
+        "Healthy life\nexpectancy": 33,
+        "id": "PA"
     },
     {
         "Country (region)": "Brazil",
@@ -444,8 +444,8 @@ worldHappy = [
         "Corruption": 71,
         "Generosity": 108,
         "Log of GDP\nper capita": 70,
-        "Healthy life,\nexpectancy": 72,
-        "ID": ""
+        "Healthy life\nexpectancy": 72,
+        "id": "BR"
     },
     {
         "Country (region)": "Uruguay",
@@ -458,8 +458,8 @@ worldHappy = [
         "Corruption": 33,
         "Generosity": 80,
         "Log of GDP\nper capita": 52,
-        "Healthy life,\nexpectancy": 35,
-        "ID": ""
+        "Healthy life\nexpectancy": 35,
+        "id": "UY"
     },
     {
         "Country (region)": "Singapore",
@@ -472,8 +472,8 @@ worldHappy = [
         "Corruption": 1,
         "Generosity": 21,
         "Log of GDP\nper capita": 3,
-        "Healthy life,\nexpectancy": 1,
-        "ID": ""
+        "Healthy life\nexpectancy": 1,
+        "id": "SG"
     },
     {
         "Country (region)": "El Salvador",
@@ -486,8 +486,8 @@ worldHappy = [
         "Corruption": 85,
         "Generosity": 134,
         "Log of GDP\nper capita": 100,
-        "Healthy life,\nexpectancy": 75,
-        "ID": ""
+        "Healthy life\nexpectancy": 75,
+        "id": "SV"
     },
     {
         "Country (region)": "Italy",
@@ -500,8 +500,8 @@ worldHappy = [
         "Corruption": 128,
         "Generosity": 48,
         "Log of GDP\nper capita": 29,
-        "Healthy life,\nexpectancy": 7,
-        "ID": ""
+        "Healthy life\nexpectancy": 7,
+        "id": "IT"
     },
     {
         "Country (region)": "Bahrain",
@@ -514,8 +514,8 @@ worldHappy = [
         "Corruption": "",
         "Generosity": 23,
         "Log of GDP\nper capita": 20,
-        "Healthy life,\nexpectancy": 42,
-        "ID": ""
+        "Healthy life\nexpectancy": 42,
+        "id": "BH"
     },
     {
         "Country (region)": "Slovakia",
@@ -528,8 +528,8 @@ worldHappy = [
         "Corruption": 142,
         "Generosity": 70,
         "Log of GDP\nper capita": 35,
-        "Healthy life,\nexpectancy": 38,
-        "ID": ""
+        "Healthy life\nexpectancy": 38,
+        "id": "SK"
     },
     {
         "Country (region)": "Trinidad and Tobago",
@@ -542,8 +542,8 @@ worldHappy = [
         "Corruption": 141,
         "Generosity": 41,
         "Log of GDP\nper capita": 38,
-        "Healthy life,\nexpectancy": 93,
-        "ID": ""
+        "Healthy life\nexpectancy": 93,
+        "id": "TT"
     },
     {
         "Country (region)": "Poland",
@@ -556,8 +556,8 @@ worldHappy = [
         "Corruption": 108,
         "Generosity": 77,
         "Log of GDP\nper capita": 41,
-        "Healthy life,\nexpectancy": 36,
-        "ID": ""
+        "Healthy life\nexpectancy": 36,
+        "id": "PL"
     },
     {
         "Country (region)": "Uzbekistan",
@@ -570,8 +570,8 @@ worldHappy = [
         "Corruption": 18,
         "Generosity": 29,
         "Log of GDP\nper capita": 104,
-        "Healthy life,\nexpectancy": 83,
-        "ID": ""
+        "Healthy life\nexpectancy": 83,
+        "id": "UZ"
     },
     {
         "Country (region)": "Lithuania",
@@ -584,8 +584,8 @@ worldHappy = [
         "Corruption": 113,
         "Generosity": 124,
         "Log of GDP\nper capita": 36,
-        "Healthy life,\nexpectancy": 62,
-        "ID": ""
+        "Healthy life\nexpectancy": 62,
+        "id": "LT"
     },
     {
         "Country (region)": "Colombia",
@@ -598,8 +598,8 @@ worldHappy = [
         "Corruption": 124,
         "Generosity": 111,
         "Log of GDP\nper capita": 74,
-        "Healthy life,\nexpectancy": 51,
-        "ID": ""
+        "Healthy life\nexpectancy": 51,
+        "id": "CO"
     },
     {
         "Country (region)": "Slovenia",
@@ -612,8 +612,8 @@ worldHappy = [
         "Corruption": 97,
         "Generosity": 54,
         "Log of GDP\nper capita": 34,
-        "Healthy life,\nexpectancy": 29,
-        "ID": ""
+        "Healthy life\nexpectancy": 29,
+        "id": "SI"
     },
     {
         "Country (region)": "Nicaragua",
@@ -626,8 +626,8 @@ worldHappy = [
         "Corruption": 43,
         "Generosity": 71,
         "Log of GDP\nper capita": 108,
-        "Healthy life,\nexpectancy": 53,
-        "ID": ""
+        "Healthy life\nexpectancy": 53,
+        "id": "NI"
     },
     {
         "Country (region)": "Kosovo",
@@ -640,8 +640,8 @@ worldHappy = [
         "Corruption": 144,
         "Generosity": 31,
         "Log of GDP\nper capita": 88,
-        "Healthy life,\nexpectancy": "",
-        "ID": ""
+        "Healthy life\nexpectancy": "XK",
+        "id": ""
     },
     {
         "Country (region)": "Argentina",
@@ -654,8 +654,8 @@ worldHappy = [
         "Corruption": 109,
         "Generosity": 123,
         "Log of GDP\nper capita": 55,
-        "Healthy life,\nexpectancy": 37,
-        "ID": ""
+        "Healthy life\nexpectancy": 37,
+        "id": "AR"
     },
     {
         "Country (region)": "Romania",
@@ -668,8 +668,8 @@ worldHappy = [
         "Corruption": 146,
         "Generosity": 102,
         "Log of GDP\nper capita": 48,
-        "Healthy life,\nexpectancy": 61,
-        "ID": ""
+        "Healthy life\nexpectancy": 61,
+        "id": "RO"
     },
     {
         "Country (region)": "Cyprus",
@@ -682,8 +682,8 @@ worldHappy = [
         "Corruption": 115,
         "Generosity": 39,
         "Log of GDP\nper capita": 33,
-        "Healthy life,\nexpectancy": 6,
-        "ID": ""
+        "Healthy life\nexpectancy": 6,
+        "id": "CY"
     },
     {
         "Country (region)": "Ecuador",
@@ -696,8 +696,8 @@ worldHappy = [
         "Corruption": 68,
         "Generosity": 95,
         "Log of GDP\nper capita": 86,
-        "Healthy life,\nexpectancy": 45,
-        "ID": ""
+        "Healthy life\nexpectancy": 45,
+        "id": "EC"
     },
     {
         "Country (region)": "Kuwait",
@@ -710,8 +710,8 @@ worldHappy = [
         "Corruption": "",
         "Generosity": 42,
         "Log of GDP\nper capita": 5,
-        "Healthy life,\nexpectancy": 70,
-        "ID": ""
+        "Healthy life\nexpectancy": 70,
+        "id": "KW"
     },
     {
         "Country (region)": "Thailand",
@@ -724,8 +724,8 @@ worldHappy = [
         "Corruption": 131,
         "Generosity": 10,
         "Log of GDP\nper capita": 62,
-        "Healthy life,\nexpectancy": 58,
-        "ID": ""
+        "Healthy life\nexpectancy": 58,
+        "id": "TH"
     },
     {
         "Country (region)": "Latvia",
@@ -738,8 +738,8 @@ worldHappy = [
         "Corruption": 92,
         "Generosity": 105,
         "Log of GDP\nper capita": 43,
-        "Healthy life,\nexpectancy": 68,
-        "ID": ""
+        "Healthy life\nexpectancy": 68,
+        "id": "LV"
     },
     {
         "Country (region)": "South Korea",
@@ -752,8 +752,8 @@ worldHappy = [
         "Corruption": 100,
         "Generosity": 40,
         "Log of GDP\nper capita": 27,
-        "Healthy life,\nexpectancy": 9,
-        "ID": ""
+        "Healthy life\nexpectancy": 9,
+        "id": "KR"
     },
     {
         "Country (region)": "Estonia",
@@ -766,8 +766,8 @@ worldHappy = [
         "Corruption": 30,
         "Generosity": 83,
         "Log of GDP\nper capita": 37,
-        "Healthy life,\nexpectancy": 41,
-        "ID": ""
+        "Healthy life\nexpectancy": 41,
+        "id": "EE"
     },
     {
         "Country (region)": "Jamaica",
@@ -780,8 +780,8 @@ worldHappy = [
         "Corruption": 130,
         "Generosity": 119,
         "Log of GDP\nper capita": 93,
-        "Healthy life,\nexpectancy": 55,
-        "ID": ""
+        "Healthy life\nexpectancy": 55,
+        "id": "JM"
     },
     {
         "Country (region)": "Mauritius",
@@ -794,8 +794,8 @@ worldHappy = [
         "Corruption": 96,
         "Generosity": 37,
         "Log of GDP\nper capita": 53,
-        "Healthy life,\nexpectancy": 73,
-        "ID": ""
+        "Healthy life\nexpectancy": 73,
+        "id": "MU"
     },
     {
         "Country (region)": "Japan",
@@ -808,8 +808,8 @@ worldHappy = [
         "Corruption": 39,
         "Generosity": 92,
         "Log of GDP\nper capita": 24,
-        "Healthy life,\nexpectancy": 2,
-        "ID": ""
+        "Healthy life\nexpectancy": 2,
+        "id": "JP"
     },
     {
         "Country (region)": "Honduras",
@@ -822,8 +822,8 @@ worldHappy = [
         "Corruption": 79,
         "Generosity": 51,
         "Log of GDP\nper capita": 113,
-        "Healthy life,\nexpectancy": 57,
-        "ID": ""
+        "Healthy life\nexpectancy": 57,
+        "id": "HN"
     },
     {
         "Country (region)": "Kazakhstan",
@@ -836,8 +836,8 @@ worldHappy = [
         "Corruption": 57,
         "Generosity": 57,
         "Log of GDP\nper capita": 47,
-        "Healthy life,\nexpectancy": 88,
-        "ID": ""
+        "Healthy life\nexpectancy": 88,
+        "id": "KZ"
     },
     {
         "Country (region)": "Bolivia",
@@ -850,8 +850,8 @@ worldHappy = [
         "Corruption": 91,
         "Generosity": 104,
         "Log of GDP\nper capita": 101,
-        "Healthy life,\nexpectancy": 94,
-        "ID": ""
+        "Healthy life\nexpectancy": 94,
+        "id": "BO"
     },
     {
         "Country (region)": "Hungary",
@@ -864,8 +864,8 @@ worldHappy = [
         "Corruption": 140,
         "Generosity": 100,
         "Log of GDP\nper capita": 42,
-        "Healthy life,\nexpectancy": 56,
-        "ID": ""
+        "Healthy life\nexpectancy": 56,
+        "id": "HU"
     },
     {
         "Country (region)": "Paraguay",
@@ -878,8 +878,8 @@ worldHappy = [
         "Corruption": 76,
         "Generosity": 67,
         "Log of GDP\nper capita": 90,
-        "Healthy life,\nexpectancy": 81,
-        "ID": ""
+        "Healthy life\nexpectancy": 81,
+        "id": "PY"
     },
     {
         "Country (region)": "Northern Cyprus",
@@ -891,9 +891,9 @@ worldHappy = [
         "Freedom": 77,
         "Corruption": 29,
         "Generosity": 43,
-        "Log of GDP\nper capita": "",
-        "Healthy life,\nexpectancy": "",
-        "ID": ""
+        "Log of GDP\nper capita": "CY",
+        "Healthy life\nexpectancy": "",
+        "id": ""
     },
     {
         "Country (region)": "Peru",
@@ -906,8 +906,8 @@ worldHappy = [
         "Corruption": 132,
         "Generosity": 126,
         "Log of GDP\nper capita": 76,
-        "Healthy life,\nexpectancy": 47,
-        "ID": ""
+        "Healthy life\nexpectancy": 47,
+        "id": "PE"
     },
     {
         "Country (region)": "Portugal",
@@ -920,8 +920,8 @@ worldHappy = [
         "Corruption": 135,
         "Generosity": 122,
         "Log of GDP\nper capita": 39,
-        "Healthy life,\nexpectancy": 22,
-        "ID": ""
+        "Healthy life\nexpectancy": 22,
+        "id": "PT"
     },
     {
         "Country (region)": "Pakistan",
@@ -934,8 +934,8 @@ worldHappy = [
         "Corruption": 55,
         "Generosity": 58,
         "Log of GDP\nper capita": 110,
-        "Healthy life,\nexpectancy": 114,
-        "ID": ""
+        "Healthy life\nexpectancy": 114,
+        "id": "PK"
     },
     {
         "Country (region)": "Russia",
@@ -948,8 +948,8 @@ worldHappy = [
         "Corruption": 127,
         "Generosity": 101,
         "Log of GDP\nper capita": 45,
-        "Healthy life,\nexpectancy": 89,
-        "ID": ""
+        "Healthy life\nexpectancy": 89,
+        "id": "RU"
     },
     {
         "Country (region)": "Philippines",
@@ -962,8 +962,8 @@ worldHappy = [
         "Corruption": 49,
         "Generosity": 115,
         "Log of GDP\nper capita": 97,
-        "Healthy life,\nexpectancy": 99,
-        "ID": ""
+        "Healthy life\nexpectancy": 99,
+        "id": "PH"
     },
     {
         "Country (region)": "Serbia",
@@ -976,8 +976,8 @@ worldHappy = [
         "Corruption": 118,
         "Generosity": 84,
         "Log of GDP\nper capita": 71,
-        "Healthy life,\nexpectancy": 48,
-        "ID": ""
+        "Healthy life\nexpectancy": 48,
+        "id": "RS"
     },
     {
         "Country (region)": "Moldova",
@@ -990,8 +990,8 @@ worldHappy = [
         "Corruption": 148,
         "Generosity": 86,
         "Log of GDP\nper capita": 109,
-        "Healthy life,\nexpectancy": 86,
-        "ID": ""
+        "Healthy life\nexpectancy": 86,
+        "id": "MD"
     },
     {
         "Country (region)": "Libya",
@@ -1004,8 +1004,8 @@ worldHappy = [
         "Corruption": 31,
         "Generosity": 87,
         "Log of GDP\nper capita": 63,
-        "Healthy life,\nexpectancy": 96,
-        "ID": ""
+        "Healthy life\nexpectancy": 96,
+        "id": "LY"
     },
     {
         "Country (region)": "Montenegro",
@@ -1018,8 +1018,8 @@ worldHappy = [
         "Corruption": 77,
         "Generosity": 76,
         "Log of GDP\nper capita": 61,
-        "Healthy life,\nexpectancy": 44,
-        "ID": ""
+        "Healthy life\nexpectancy": 44,
+        "id": "ME"
     },
     {
         "Country (region)": "Tajikistan",
@@ -1032,8 +1032,8 @@ worldHappy = [
         "Corruption": 35,
         "Generosity": 72,
         "Log of GDP\nper capita": 123,
-        "Healthy life,\nexpectancy": 92,
-        "ID": ""
+        "Healthy life\nexpectancy": 92,
+        "id": "TJ"
     },
     {
         "Country (region)": "Croatia",
@@ -1046,8 +1046,8 @@ worldHappy = [
         "Corruption": 139,
         "Generosity": 81,
         "Log of GDP\nper capita": 50,
-        "Healthy life,\nexpectancy": 32,
-        "ID": ""
+        "Healthy life\nexpectancy": 32,
+        "id": "HR"
     },
     {
         "Country (region)": "Hong Kong",
@@ -1060,8 +1060,8 @@ worldHappy = [
         "Corruption": 14,
         "Generosity": 18,
         "Log of GDP\nper capita": 9,
-        "Healthy life,\nexpectancy": "",
-        "ID": ""
+        "Healthy life\nexpectancy": "HK",
+        "id": ""
     },
     {
         "Country (region)": "Dominican Republic",
@@ -1074,8 +1074,8 @@ worldHappy = [
         "Corruption": 52,
         "Generosity": 93,
         "Log of GDP\nper capita": 69,
-        "Healthy life,\nexpectancy": 80,
-        "ID": ""
+        "Healthy life\nexpectancy": 80,
+        "id": "DO"
     },
     {
         "Country (region)": "Bosnia and Herzegovina",
@@ -1088,8 +1088,8 @@ worldHappy = [
         "Corruption": 145,
         "Generosity": 32,
         "Log of GDP\nper capita": 82,
-        "Healthy life,\nexpectancy": 50,
-        "ID": ""
+        "Healthy life\nexpectancy": 50,
+        "id": "BA"
     },
     {
         "Country (region)": "Turkey",
@@ -1102,8 +1102,8 @@ worldHappy = [
         "Corruption": 50,
         "Generosity": 98,
         "Log of GDP\nper capita": 44,
-        "Healthy life,\nexpectancy": 69,
-        "ID": ""
+        "Healthy life\nexpectancy": 69,
+        "id": "TR"
     },
     {
         "Country (region)": "Malaysia",
@@ -1116,8 +1116,8 @@ worldHappy = [
         "Corruption": 137,
         "Generosity": 27,
         "Log of GDP\nper capita": 40,
-        "Healthy life,\nexpectancy": 59,
-        "ID": ""
+        "Healthy life\nexpectancy": 59,
+        "id": "MY"
     },
     {
         "Country (region)": "Belarus",
@@ -1130,8 +1130,8 @@ worldHappy = [
         "Corruption": 37,
         "Generosity": 103,
         "Log of GDP\nper capita": 58,
-        "Healthy life,\nexpectancy": 76,
-        "ID": ""
+        "Healthy life\nexpectancy": 76,
+        "id": "BY"
     },
     {
         "Country (region)": "Greece",
@@ -1144,8 +1144,8 @@ worldHappy = [
         "Corruption": 123,
         "Generosity": 152,
         "Log of GDP\nper capita": 46,
-        "Healthy life,\nexpectancy": 21,
-        "ID": ""
+        "Healthy life\nexpectancy": 21,
+        "id": "GR"
     },
     {
         "Country (region)": "Mongolia",
@@ -1158,8 +1158,8 @@ worldHappy = [
         "Corruption": 119,
         "Generosity": 38,
         "Log of GDP\nper capita": 80,
-        "Healthy life,\nexpectancy": 97,
-        "ID": ""
+        "Healthy life\nexpectancy": 97,
+        "id": "MN"
     },
     {
         "Country (region)": "Macedonia",
@@ -1172,8 +1172,8 @@ worldHappy = [
         "Corruption": 125,
         "Generosity": 55,
         "Log of GDP\nper capita": 75,
-        "Healthy life,\nexpectancy": 52,
-        "ID": ""
+        "Healthy life\nexpectancy": 52,
+        "id": "MK"
     },
     {
         "Country (region)": "Nigeria",
@@ -1186,8 +1186,8 @@ worldHappy = [
         "Corruption": 114,
         "Generosity": 59,
         "Log of GDP\nper capita": 107,
-        "Healthy life,\nexpectancy": 145,
-        "ID": ""
+        "Healthy life\nexpectancy": 145,
+        "id": "NG"
     },
     {
         "Country (region)": "Kyrgyzstan",
@@ -1200,8 +1200,8 @@ worldHappy = [
         "Corruption": 138,
         "Generosity": 36,
         "Log of GDP\nper capita": 120,
-        "Healthy life,\nexpectancy": 91,
-        "ID": ""
+        "Healthy life\nexpectancy": 91,
+        "id": "KG"
     },
     {
         "Country (region)": "Turkmenistan",
@@ -1214,8 +1214,8 @@ worldHappy = [
         "Corruption": "",
         "Generosity": 33,
         "Log of GDP\nper capita": 60,
-        "Healthy life,\nexpectancy": 100,
-        "ID": ""
+        "Healthy life\nexpectancy": 100,
+        "id": "TM"
     },
     {
         "Country (region)": "Algeria",
@@ -1228,8 +1228,8 @@ worldHappy = [
         "Corruption": 46,
         "Generosity": 128,
         "Log of GDP\nper capita": 72,
-        "Healthy life,\nexpectancy": 78,
-        "ID": ""
+        "Healthy life\nexpectancy": 78,
+        "id": "DZ"
     },
     {
         "Country (region)": "Morocco",
@@ -1242,8 +1242,8 @@ worldHappy = [
         "Corruption": 84,
         "Generosity": 154,
         "Log of GDP\nper capita": 98,
-        "Healthy life,\nexpectancy": 79,
-        "ID": ""
+        "Healthy life\nexpectancy": 79,
+        "id": "MA"
     },
     {
         "Country (region)": "Azerbaijan",
@@ -1256,8 +1256,8 @@ worldHappy = [
         "Corruption": 22,
         "Generosity": 146,
         "Log of GDP\nper capita": 65,
-        "Healthy life,\nexpectancy": 82,
-        "ID": ""
+        "Healthy life\nexpectancy": 82,
+        "id": "AZ"
     },
     {
         "Country (region)": "Lebanon",
@@ -1270,8 +1270,8 @@ worldHappy = [
         "Corruption": 133,
         "Generosity": 63,
         "Log of GDP\nper capita": 73,
-        "Healthy life,\nexpectancy": 66,
-        "ID": ""
+        "Healthy life\nexpectancy": 66,
+        "id": "LB"
     },
     {
         "Country (region)": "Indonesia",
@@ -1284,8 +1284,8 @@ worldHappy = [
         "Corruption": 129,
         "Generosity": 2,
         "Log of GDP\nper capita": 83,
-        "Healthy life,\nexpectancy": 98,
-        "ID": ""
+        "Healthy life\nexpectancy": 98,
+        "id": "ID"
     },
     {
         "Country (region)": "China",
@@ -1298,8 +1298,8 @@ worldHappy = [
         "Corruption": "",
         "Generosity": 133,
         "Log of GDP\nper capita": 68,
-        "Healthy life,\nexpectancy": 34,
-        "ID": ""
+        "Healthy life\nexpectancy": 34,
+        "id": "CN"
     },
     {
         "Country (region)": "Vietnam",
@@ -1312,8 +1312,8 @@ worldHappy = [
         "Corruption": 86,
         "Generosity": 97,
         "Log of GDP\nper capita": 105,
-        "Healthy life,\nexpectancy": 49,
-        "ID": ""
+        "Healthy life\nexpectancy": 49,
+        "id": "VN"
     },
     {
         "Country (region)": "Bhutan",
@@ -1326,8 +1326,8 @@ worldHappy = [
         "Corruption": 25,
         "Generosity": 13,
         "Log of GDP\nper capita": 95,
-        "Healthy life,\nexpectancy": 104,
-        "ID": ""
+        "Healthy life\nexpectancy": 104,
+        "id": "BT"
     },
     {
         "Country (region)": "Cameroon",
@@ -1340,8 +1340,8 @@ worldHappy = [
         "Corruption": 120,
         "Generosity": 91,
         "Log of GDP\nper capita": 121,
-        "Healthy life,\nexpectancy": 141,
-        "ID": ""
+        "Healthy life\nexpectancy": 141,
+        "id": "CM"
     },
     {
         "Country (region)": "Bulgaria",
@@ -1354,8 +1354,8 @@ worldHappy = [
         "Corruption": 147,
         "Generosity": 112,
         "Log of GDP\nper capita": 56,
-        "Healthy life,\nexpectancy": 65,
-        "ID": ""
+        "Healthy life\nexpectancy": 65,
+        "id": "BG"
     },
     {
         "Country (region)": "Ghana",
@@ -1368,8 +1368,8 @@ worldHappy = [
         "Corruption": 117,
         "Generosity": 52,
         "Log of GDP\nper capita": 114,
-        "Healthy life,\nexpectancy": 121,
-        "ID": ""
+        "Healthy life\nexpectancy": 121,
+        "id": "GH"
     },
     {
         "Country (region)": "Ivory Coast",
@@ -1382,8 +1382,8 @@ worldHappy = [
         "Corruption": 62,
         "Generosity": 114,
         "Log of GDP\nper capita": 118,
-        "Healthy life,\nexpectancy": 147,
-        "ID": ""
+        "Healthy life\nexpectancy": 147,
+        "id": "CI"
     },
     {
         "Country (region)": "Nepal",
@@ -1396,8 +1396,8 @@ worldHappy = [
         "Corruption": 65,
         "Generosity": 46,
         "Log of GDP\nper capita": 127,
-        "Healthy life,\nexpectancy": 95,
-        "ID": ""
+        "Healthy life\nexpectancy": 95,
+        "id": "NP"
     },
     {
         "Country (region)": "Jordan",
@@ -1410,8 +1410,8 @@ worldHappy = [
         "Corruption": "",
         "Generosity": 118,
         "Log of GDP\nper capita": 92,
-        "Healthy life,\nexpectancy": 63,
-        "ID": ""
+        "Healthy life\nexpectancy": 63,
+        "id": "JO"
     },
     {
         "Country (region)": "Benin",
@@ -1424,8 +1424,8 @@ worldHappy = [
         "Corruption": 75,
         "Generosity": 116,
         "Log of GDP\nper capita": 128,
-        "Healthy life,\nexpectancy": 133,
-        "ID": ""
+        "Healthy life\nexpectancy": 133,
+        "id": "BJ"
     },
     {
         "Country (region)": "Congo (Brazzaville)",
@@ -1438,8 +1438,8 @@ worldHappy = [
         "Corruption": 60,
         "Generosity": 140,
         "Log of GDP\nper capita": 111,
-        "Healthy life,\nexpectancy": 116,
-        "ID": ""
+        "Healthy life\nexpectancy": 116,
+        "id": "CG"
     },
     {
         "Country (region)": "Gabon",
@@ -1452,8 +1452,8 @@ worldHappy = [
         "Corruption": 103,
         "Generosity": 143,
         "Log of GDP\nper capita": 59,
-        "Healthy life,\nexpectancy": 108,
-        "ID": ""
+        "Healthy life\nexpectancy": 108,
+        "id": "GA"
     },
     {
         "Country (region)": "Laos",
@@ -1466,8 +1466,8 @@ worldHappy = [
         "Corruption": 27,
         "Generosity": 34,
         "Log of GDP\nper capita": 102,
-        "Healthy life,\nexpectancy": 112,
-        "ID": ""
+        "Healthy life\nexpectancy": 112,
+        "id": "LA"
     },
     {
         "Country (region)": "South Africa",
@@ -1480,8 +1480,8 @@ worldHappy = [
         "Corruption": 102,
         "Generosity": 89,
         "Log of GDP\nper capita": 77,
-        "Healthy life,\nexpectancy": 123,
-        "ID": ""
+        "Healthy life\nexpectancy": 123,
+        "id": "ZA"
     },
     {
         "Country (region)": "Albania",
@@ -1494,8 +1494,8 @@ worldHappy = [
         "Corruption": 134,
         "Generosity": 60,
         "Log of GDP\nper capita": 81,
-        "Healthy life,\nexpectancy": 40,
-        "ID": ""
+        "Healthy life\nexpectancy": 40,
+        "id": "AL"
     },
     {
         "Country (region)": "Venezuela",
@@ -1508,8 +1508,8 @@ worldHappy = [
         "Corruption": 110,
         "Generosity": 139,
         "Log of GDP\nper capita": 78,
-        "Healthy life,\nexpectancy": 71,
-        "ID": ""
+        "Healthy life\nexpectancy": 71,
+        "id": "VE"
     },
     {
         "Country (region)": "Cambodia",
@@ -1522,8 +1522,8 @@ worldHappy = [
         "Corruption": 94,
         "Generosity": 61,
         "Log of GDP\nper capita": 116,
-        "Healthy life,\nexpectancy": 102,
-        "ID": ""
+        "Healthy life\nexpectancy": 102,
+        "id": "KH"
     },
     {
         "Country (region)": "Palestinian Territories",
@@ -1536,8 +1536,8 @@ worldHappy = [
         "Corruption": 90,
         "Generosity": 147,
         "Log of GDP\nper capita": 112,
-        "Healthy life,\nexpectancy": "",
-        "ID": ""
+        "Healthy life\nexpectancy": "PS",
+        "id": ""
     },
     {
         "Country (region)": "Senegal",
@@ -1550,8 +1550,8 @@ worldHappy = [
         "Corruption": 88,
         "Generosity": 130,
         "Log of GDP\nper capita": 126,
-        "Healthy life,\nexpectancy": 109,
-        "ID": ""
+        "Healthy life\nexpectancy": 109,
+        "id": "SN"
     },
     {
         "Country (region)": "Somalia",
@@ -1563,9 +1563,9 @@ worldHappy = [
         "Freedom": 14,
         "Corruption": 16,
         "Generosity": 96,
-        "Log of GDP\nper capita": "",
-        "Healthy life,\nexpectancy": 144,
-        "ID": ""
+        "Log of GDP\nper capita": 144,
+        "Healthy life\nexpectancy": "SO",
+        "id": ""
     },
     {
         "Country (region)": "Namibia",
@@ -1578,8 +1578,8 @@ worldHappy = [
         "Corruption": 98,
         "Generosity": 142,
         "Log of GDP\nper capita": 89,
-        "Healthy life,\nexpectancy": 122,
-        "ID": ""
+        "Healthy life\nexpectancy": 122,
+        "id": "NA"
     },
     {
         "Country (region)": "Niger",
@@ -1592,8 +1592,8 @@ worldHappy = [
         "Corruption": 51,
         "Generosity": 135,
         "Log of GDP\nper capita": 148,
-        "Healthy life,\nexpectancy": 138,
-        "ID": ""
+        "Healthy life\nexpectancy": 138,
+        "id": "NE"
     },
     {
         "Country (region)": "Burkina Faso",
@@ -1606,8 +1606,8 @@ worldHappy = [
         "Corruption": 47,
         "Generosity": 125,
         "Log of GDP\nper capita": 137,
-        "Healthy life,\nexpectancy": 136,
-        "ID": ""
+        "Healthy life\nexpectancy": 136,
+        "id": "BF"
     },
     {
         "Country (region)": "Armenia",
@@ -1620,8 +1620,8 @@ worldHappy = [
         "Corruption": 93,
         "Generosity": 129,
         "Log of GDP\nper capita": 91,
-        "Healthy life,\nexpectancy": 64,
-        "ID": ""
+        "Healthy life\nexpectancy": 64,
+        "id": "AM"
     },
     {
         "Country (region)": "Iran",
@@ -1634,8 +1634,8 @@ worldHappy = [
         "Corruption": 44,
         "Generosity": 28,
         "Log of GDP\nper capita": 54,
-        "Healthy life,\nexpectancy": 77,
-        "ID": ""
+        "Healthy life\nexpectancy": 77,
+        "id": "IR"
     },
     {
         "Country (region)": "Guinea",
@@ -1648,8 +1648,8 @@ worldHappy = [
         "Corruption": 70,
         "Generosity": 94,
         "Log of GDP\nper capita": 130,
-        "Healthy life,\nexpectancy": 137,
-        "ID": ""
+        "Healthy life\nexpectancy": 137,
+        "id": "GN"
     },
     {
         "Country (region)": "Georgia",
@@ -1662,8 +1662,8 @@ worldHappy = [
         "Corruption": 28,
         "Generosity": 153,
         "Log of GDP\nper capita": 87,
-        "Healthy life,\nexpectancy": 84,
-        "ID": ""
+        "Healthy life\nexpectancy": 84,
+        "id": "GE"
     },
     {
         "Country (region)": "Gambia",
@@ -1676,8 +1676,8 @@ worldHappy = [
         "Corruption": 26,
         "Generosity": 64,
         "Log of GDP\nper capita": 139,
-        "Healthy life,\nexpectancy": 130,
-        "ID": ""
+        "Healthy life\nexpectancy": 130,
+        "id": "GM"
     },
     {
         "Country (region)": "Kenya",
@@ -1690,8 +1690,8 @@ worldHappy = [
         "Corruption": 105,
         "Generosity": 26,
         "Log of GDP\nper capita": 122,
-        "Healthy life,\nexpectancy": 106,
-        "ID": ""
+        "Healthy life\nexpectancy": 106,
+        "id": "KE"
     },
     {
         "Country (region)": "Mauritania",
@@ -1704,8 +1704,8 @@ worldHappy = [
         "Corruption": 67,
         "Generosity": 148,
         "Log of GDP\nper capita": 117,
-        "Healthy life,\nexpectancy": 120,
-        "ID": ""
+        "Healthy life\nexpectancy": 120,
+        "id": "MR"
     },
     {
         "Country (region)": "Mozambique",
@@ -1718,8 +1718,8 @@ worldHappy = [
         "Corruption": 40,
         "Generosity": 121,
         "Log of GDP\nper capita": 146,
-        "Healthy life,\nexpectancy": 134,
-        "ID": ""
+        "Healthy life\nexpectancy": 134,
+        "id": "MZ"
     },
     {
         "Country (region)": "Tunisia",
@@ -1732,8 +1732,8 @@ worldHappy = [
         "Corruption": 101,
         "Generosity": 144,
         "Log of GDP\nper capita": 84,
-        "Healthy life,\nexpectancy": 67,
-        "ID": ""
+        "Healthy life\nexpectancy": 67,
+        "id": "TN"
     },
     {
         "Country (region)": "Bangladesh",
@@ -1746,8 +1746,8 @@ worldHappy = [
         "Corruption": 36,
         "Generosity": 107,
         "Log of GDP\nper capita": 119,
-        "Healthy life,\nexpectancy": 90,
-        "ID": ""
+        "Healthy life\nexpectancy": 90,
+        "id": "BD"
     },
     {
         "Country (region)": "Iraq",
@@ -1760,8 +1760,8 @@ worldHappy = [
         "Corruption": 66,
         "Generosity": 73,
         "Log of GDP\nper capita": 64,
-        "Healthy life,\nexpectancy": 107,
-        "ID": ""
+        "Healthy life\nexpectancy": 107,
+        "id": "IQ"
     },
     {
         "Country (region)": "Congo (Kinshasa)",
@@ -1774,8 +1774,8 @@ worldHappy = [
         "Corruption": 106,
         "Generosity": 127,
         "Log of GDP\nper capita": 149,
-        "Healthy life,\nexpectancy": 140,
-        "ID": ""
+        "Healthy life\nexpectancy": 140,
+        "id": "CD"
     },
     {
         "Country (region)": "Mali",
@@ -1788,8 +1788,8 @@ worldHappy = [
         "Corruption": 107,
         "Generosity": 138,
         "Log of GDP\nper capita": 129,
-        "Healthy life,\nexpectancy": 142,
-        "ID": ""
+        "Healthy life\nexpectancy": 142,
+        "id": "ML"
     },
     {
         "Country (region)": "Sierra Leone",
@@ -1802,8 +1802,8 @@ worldHappy = [
         "Corruption": 112,
         "Generosity": 79,
         "Log of GDP\nper capita": 145,
-        "Healthy life,\nexpectancy": 146,
-        "ID": ""
+        "Healthy life\nexpectancy": 146,
+        "id": "SL"
     },
     {
         "Country (region)": "Sri Lanka",
@@ -1816,8 +1816,8 @@ worldHappy = [
         "Corruption": 111,
         "Generosity": 35,
         "Log of GDP\nper capita": 79,
-        "Healthy life,\nexpectancy": 54,
-        "ID": ""
+        "Healthy life\nexpectancy": 54,
+        "id": "LK"
     },
     {
         "Country (region)": "Myanmar",
@@ -1830,8 +1830,8 @@ worldHappy = [
         "Corruption": 24,
         "Generosity": 1,
         "Log of GDP\nper capita": 106,
-        "Healthy life,\nexpectancy": 110,
-        "ID": ""
+        "Healthy life\nexpectancy": 110,
+        "id": "MM"
     },
     {
         "Country (region)": "Chad",
@@ -1844,8 +1844,8 @@ worldHappy = [
         "Corruption": 80,
         "Generosity": 106,
         "Log of GDP\nper capita": 133,
-        "Healthy life,\nexpectancy": 148,
-        "ID": ""
+        "Healthy life\nexpectancy": 148,
+        "id": "TD"
     },
     {
         "Country (region)": "Ukraine",
@@ -1858,8 +1858,8 @@ worldHappy = [
         "Corruption": 143,
         "Generosity": 66,
         "Log of GDP\nper capita": 94,
-        "Healthy life,\nexpectancy": 87,
-        "ID": ""
+        "Healthy life\nexpectancy": 87,
+        "id": "UA"
     },
     {
         "Country (region)": "Ethiopia",
@@ -1872,8 +1872,8 @@ worldHappy = [
         "Corruption": 53,
         "Generosity": 99,
         "Log of GDP\nper capita": 135,
-        "Healthy life,\nexpectancy": 115,
-        "ID": ""
+        "Healthy life\nexpectancy": 115,
+        "id": "ET"
     },
     {
         "Country (region)": "Swaziland",
@@ -1886,8 +1886,8 @@ worldHappy = [
         "Corruption": 41,
         "Generosity": 145,
         "Log of GDP\nper capita": 96,
-        "Healthy life,\nexpectancy": "",
-        "ID": ""
+        "Healthy life\nexpectancy": "SZ",
+        "id": ""
     },
     {
         "Country (region)": "Uganda",
@@ -1900,8 +1900,8 @@ worldHappy = [
         "Corruption": 95,
         "Generosity": 74,
         "Log of GDP\nper capita": 136,
-        "Healthy life,\nexpectancy": 127,
-        "ID": ""
+        "Healthy life\nexpectancy": 127,
+        "id": "UG"
     },
     {
         "Country (region)": "Egypt",
@@ -1914,8 +1914,8 @@ worldHappy = [
         "Corruption": 89,
         "Generosity": 132,
         "Log of GDP\nper capita": 85,
-        "Healthy life,\nexpectancy": 101,
-        "ID": ""
+        "Healthy life\nexpectancy": 101,
+        "id": "EG"
     },
     {
         "Country (region)": "Zambia",
@@ -1928,8 +1928,8 @@ worldHappy = [
         "Corruption": 69,
         "Generosity": 53,
         "Log of GDP\nper capita": 115,
-        "Healthy life,\nexpectancy": 131,
-        "ID": ""
+        "Healthy life\nexpectancy": 131,
+        "id": "ZM"
     },
     {
         "Country (region)": "Togo",
@@ -1942,8 +1942,8 @@ worldHappy = [
         "Corruption": 72,
         "Generosity": 131,
         "Log of GDP\nper capita": 142,
-        "Healthy life,\nexpectancy": 132,
-        "ID": ""
+        "Healthy life\nexpectancy": 132,
+        "id": "TG"
     },
     {
         "Country (region)": "India",
@@ -1956,8 +1956,8 @@ worldHappy = [
         "Corruption": 73,
         "Generosity": 65,
         "Log of GDP\nper capita": 103,
-        "Healthy life,\nexpectancy": 105,
-        "ID": ""
+        "Healthy life\nexpectancy": 105,
+        "id": "IN"
     },
     {
         "Country (region)": "Liberia",
@@ -1970,8 +1970,8 @@ worldHappy = [
         "Corruption": 126,
         "Generosity": 110,
         "Log of GDP\nper capita": 150,
-        "Healthy life,\nexpectancy": 126,
-        "ID": ""
+        "Healthy life\nexpectancy": 126,
+        "id": "LR"
     },
     {
         "Country (region)": "Comoros",
@@ -1984,8 +1984,8 @@ worldHappy = [
         "Corruption": 81,
         "Generosity": 62,
         "Log of GDP\nper capita": 143,
-        "Healthy life,\nexpectancy": 117,
-        "ID": ""
+        "Healthy life\nexpectancy": 117,
+        "id": "KM"
     },
     {
         "Country (region)": "Madagascar",
@@ -1998,8 +1998,8 @@ worldHappy = [
         "Corruption": 116,
         "Generosity": 136,
         "Log of GDP\nper capita": 144,
-        "Healthy life,\nexpectancy": 111,
-        "ID": ""
+        "Healthy life\nexpectancy": 111,
+        "id": "MG"
     },
     {
         "Country (region)": "Lesotho",
@@ -2012,8 +2012,8 @@ worldHappy = [
         "Corruption": 59,
         "Generosity": 151,
         "Log of GDP\nper capita": 124,
-        "Healthy life,\nexpectancy": 149,
-        "ID": ""
+        "Healthy life\nexpectancy": 149,
+        "id": "LS"
     },
     {
         "Country (region)": "Burundi",
@@ -2026,8 +2026,8 @@ worldHappy = [
         "Corruption": 23,
         "Generosity": 149,
         "Log of GDP\nper capita": 151,
-        "Healthy life,\nexpectancy": 135,
-        "ID": ""
+        "Healthy life\nexpectancy": 135,
+        "id": "BI"
     },
     {
         "Country (region)": "Zimbabwe",
@@ -2040,8 +2040,8 @@ worldHappy = [
         "Corruption": 63,
         "Generosity": 141,
         "Log of GDP\nper capita": 131,
-        "Healthy life,\nexpectancy": 129,
-        "ID": ""
+        "Healthy life\nexpectancy": 129,
+        "id": "ZW"
     },
     {
         "Country (region)": "Haiti",
@@ -2054,8 +2054,8 @@ worldHappy = [
         "Corruption": 48,
         "Generosity": 20,
         "Log of GDP\nper capita": 138,
-        "Healthy life,\nexpectancy": 125,
-        "ID": ""
+        "Healthy life\nexpectancy": 125,
+        "id": "HT"
     },
     {
         "Country (region)": "Botswana",
@@ -2068,8 +2068,8 @@ worldHappy = [
         "Corruption": 54,
         "Generosity": 150,
         "Log of GDP\nper capita": 66,
-        "Healthy life,\nexpectancy": 113,
-        "ID": ""
+        "Healthy life\nexpectancy": 113,
+        "id": "BW"
     },
     {
         "Country (region)": "Syria",
@@ -2082,8 +2082,8 @@ worldHappy = [
         "Corruption": 38,
         "Generosity": 69,
         "Log of GDP\nper capita": "",
-        "Healthy life,\nexpectancy": 128,
-        "ID": ""
+        "Healthy life\nexpectancy": 128,
+        "id": "SY"
     },
     {
         "Country (region)": "Malawi",
@@ -2096,8 +2096,8 @@ worldHappy = [
         "Corruption": 64,
         "Generosity": 109,
         "Log of GDP\nper capita": 147,
-        "Healthy life,\nexpectancy": 119,
-        "ID": ""
+        "Healthy life\nexpectancy": 119,
+        "id": "MW"
     },
     {
         "Country (region)": "Yemen",
@@ -2110,8 +2110,8 @@ worldHappy = [
         "Corruption": 83,
         "Generosity": 155,
         "Log of GDP\nper capita": 141,
-        "Healthy life,\nexpectancy": 124,
-        "ID": ""
+        "Healthy life\nexpectancy": 124,
+        "id": "YE"
     },
     {
         "Country (region)": "Rwanda",
@@ -2124,8 +2124,8 @@ worldHappy = [
         "Corruption": 2,
         "Generosity": 90,
         "Log of GDP\nper capita": 132,
-        "Healthy life,\nexpectancy": 103,
-        "ID": ""
+        "Healthy life\nexpectancy": 103,
+        "id": "RW"
     },
     {
         "Country (region)": "Tanzania",
@@ -2138,8 +2138,8 @@ worldHappy = [
         "Corruption": 34,
         "Generosity": 49,
         "Log of GDP\nper capita": 125,
-        "Healthy life,\nexpectancy": 118,
-        "ID": ""
+        "Healthy life\nexpectancy": 118,
+        "id": "TZ"
     },
     {
         "Country (region)": "Afghanistan",
@@ -2152,8 +2152,8 @@ worldHappy = [
         "Corruption": 136,
         "Generosity": 137,
         "Log of GDP\nper capita": 134,
-        "Healthy life,\nexpectancy": 139,
-        "ID": ""
+        "Healthy life\nexpectancy": 139,
+        "id": "AF"
     },
     {
         "Country (region)": "Central African Republic",
@@ -2166,8 +2166,8 @@ worldHappy = [
         "Corruption": 122,
         "Generosity": 113,
         "Log of GDP\nper capita": 152,
-        "Healthy life,\nexpectancy": 150,
-        "ID": ""
+        "Healthy life\nexpectancy": 150,
+        "id": "CF"
     },
     {
         "Country (region)": "South Sudan",
@@ -2180,7 +2180,7 @@ worldHappy = [
         "Corruption": 61,
         "Generosity": 85,
         "Log of GDP\nper capita": 140,
-        "Healthy life,\nexpectancy": 143,
-        "ID": ""
+        "Healthy life\nexpectancy": 143,
+        "id": "SS"
     }
 ];
