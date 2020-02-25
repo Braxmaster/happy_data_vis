@@ -11,22 +11,22 @@ am4core.ready(function () {
     chart.geodata = am4geodata_worldLow;
 
     // Load data into chart
-    chart.dataSource.url = "world-happiness-report-2019.csv";
+    /* chart.dataSource.url = "world-happiness-report-2019.csv";
     chart.dataSource.parser = new am4core.CSVParser();
-    chart.dataSource.parser.options.useColumnNames = true;
+    chart.dataSource.parser.options.useColumnNames = true; */
 
     // Set projection
     chart.projection = new am4maps.projections.Miller();
 
     // Series for World map
     var worldSeries = chart.series.push(new am4maps.MapPolygonSeries());
-    console.log(new am4maps.MapPolygonSeries());
     worldSeries.exclude = ["AQ"];
     worldSeries.useGeodata = true;
-    worldSeries.data = null;
+
+    worldSeries.data = worldHappy;
 
     var polygonTemplate = worldSeries.mapPolygons.template;
-    polygonTemplate.tooltipText = "{name}";
+    polygonTemplate.tooltipText = "{name} : {Ladder}";
     polygonTemplate.fill = chart.colors.getIndex(0);
     polygonTemplate.nonScalingStroke = true;
 

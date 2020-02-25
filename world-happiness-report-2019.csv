@@ -1,6 +1,6 @@
 Country (region),Ladder,SD of Ladder,Positive affect,Negative affect,Social support,Freedom,Corruption,Generosity,"Log of GDP
-per capita","Healthy life
-expectancy"
+per capita","Healthy life,
+expectancy", id
 Finland,1,4,41,10,2,5,4,47,22,27
 Denmark,2,13,24,26,4,6,3,22,14,23
 Norway,3,8,16,29,3,3,8,11,7,12
