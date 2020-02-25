@@ -10,13 +10,20 @@ am4core.ready(function () {
     // Set map definition
     chart.geodata = am4geodata_worldLow;
 
+    // Load data into chart
+    chart.dataSource.url = "world-happiness-report-2019.csv";
+    chart.dataSource.parser = new am4core.CSVParser();
+    chart.dataSource.parser.options.useColumnNames = true;
+
     // Set projection
     chart.projection = new am4maps.projections.Miller();
 
     // Series for World map
     var worldSeries = chart.series.push(new am4maps.MapPolygonSeries());
+    console.log(new am4maps.MapPolygonSeries());
     worldSeries.exclude = ["AQ"];
     worldSeries.useGeodata = true;
+    worldSeries.data = null;
 
     var polygonTemplate = worldSeries.mapPolygons.template;
     polygonTemplate.tooltipText = "{name}";
@@ -25,19 +32,6 @@ am4core.ready(function () {
 
     // Hover state
     var hs = polygonTemplate.states.create("hover");
-    hs.properties.fill = am4core.color("#367B25");
-
-    // Series for United States map
-    var usaSeries = chart.series.push(new am4maps.MapPolygonSeries());
-    usaSeries.geodata = am4geodata_usaLow;
-
-    var usPolygonTemplate = usaSeries.mapPolygons.template;
-    usPolygonTemplate.tooltipText = "{name}";
-    usPolygonTemplate.fill = chart.colors.getIndex(1);
-    usPolygonTemplate.nonScalingStroke = true;
-
-    // Hover state
-    var hs = usPolygonTemplate.states.create("hover");
     hs.properties.fill = am4core.color("#367B25");
 
 }); // end am4core.ready()
