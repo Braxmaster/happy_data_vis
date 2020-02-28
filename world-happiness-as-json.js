@@ -1565,7 +1565,7 @@ worldHappy = [
         "Generosity": 96,
         "Log of GDP\nper capita": 144,
         "Healthy life\nexpectancy": "SO",
-        "id": ""
+        "id": "SO"
     },
     {
         "Country (region)": "Namibia",

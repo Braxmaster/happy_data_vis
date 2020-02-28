@@ -23,15 +23,49 @@ am4core.ready(function () {
     worldSeries.exclude = ["AQ"];
     worldSeries.useGeodata = true;
 
-    worldSeries.data = worldHappy;
+    var data = [];
+    for (var i = 0; i < worldHappy.length; i++) {
+        data.push({
+            id: worldHappy[i].id,
+            value: worldHappy[i].Ladder
+        })
+    }
+    worldSeries.data = data;
+
+    worldSeries.heatRules.push({
+        property: "fill",
+        target: worldSeries.mapPolygons.template,
+        min: am4core.color("#cafbff"),
+        max: am4core.color("#023c41")
+    })
 
     var polygonTemplate = worldSeries.mapPolygons.template;
-    polygonTemplate.tooltipText = "{name} : {Ladder}";
+    polygonTemplate.tooltipText = "{name} \n World Happiness Ranking: {value}";
     polygonTemplate.fill = chart.colors.getIndex(0);
     polygonTemplate.nonScalingStroke = true;
 
     // Hover state
     var hs = polygonTemplate.states.create("hover");
     hs.properties.fill = am4core.color("#367B25");
+
+    let heatLegend = chart.createChild(am4maps.HeatLegend);
+  heatLegend.series = worldSeries;
+  heatLegend.align = "right";
+  heatLegend.width = am4core.percent(25);
+  heatLegend.marginRight = am4core.percent(4);
+  heatLegend.minValue = 0;
+  heatLegend.maxValue = 40000000;
+  heatLegend.valign = "bottom";
+
+  var minRange = heatLegend.valueAxis.axisRanges.create();
+  minRange.value = heatLegend.minValue;
+  minRange.label.text = "Happy!";
+  var maxRange = heatLegend.valueAxis.axisRanges.create();
+  maxRange.value = heatLegend.maxValue;
+  maxRange.label.text = "unhappy!";
+
+  heatLegend.valueAxis.renderer.labels.template.adapter.add("text", function(labelText) {
+    return "";
+  });
 
 }); // end am4core.ready()
