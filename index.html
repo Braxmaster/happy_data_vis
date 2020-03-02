@@ -23,6 +23,10 @@
     <script src="map.js"></script>
     <script src="scatter_plot_working_time.js" defer></script>
 
+
+    
+    
+
 </head>
 
 <body class="body">
@@ -35,10 +39,15 @@
             <div class="banner"></div>
             <div class="divider"></div>
             <div class="wrapper">
-                <div class="box1">
+                <div class="box1"> 
                     <h1 style="text-align: center;"> Can money make you happy? </h1>
                     <p> Turns out it does - up to a certain point </p>
-                    <div class="graph">Graph goes here!</div>
+                    <div class="graph">
+                        <!--Line graph (Chartjs)-->
+                        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                        <canvas id="myChart"></canvas>
+                        <script src="line.js"></script>
+                        </div>
                 </div>
                 <div class="box2">
                     <h1 style="text-align: center;"> How much do you need to earn to make you happy? </h1>
