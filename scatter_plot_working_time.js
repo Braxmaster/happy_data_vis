@@ -16,8 +16,6 @@ d3.csv(working_time_data).then(function (data) {
     happyRankData = loadedData.map(x => x["happiness ranking"]);
     workTimeData = loadedData.map(x => x["annual working time"]);
 
-    console.log(countryData);
-
     createGraph();
 
 });
@@ -33,17 +31,29 @@ function createGraph() {
                 ["Happiness ranking"].concat(happyRankData)
             ],
             type: "scatter",
-            labels: true
+            labels: {
+                format: {
+                    "Happiness ranking": function (x) {
+                        countryName = ""
+                        happyRankData.forEach(element => {
+                            if (x == element) {
+                                countryName = countryData[happyRankData.indexOf(element)]
+                            }
+                        });
+                        return countryName;
+                    }
+                }
+            }
         },
         axis: {
             x: {
-                label: "Sepal.Width",
+                label: "Working time",
                 tick: {
                     fit: false
                 }
             },
             y: {
-                label: "Petal.Width",
+                label: "Happiness ranking",
                 inverted: "true"
             }
         },

@@ -46,7 +46,7 @@ am4core.ready(function () {
 
     // Hover state
     var hs = polygonTemplate.states.create("hover");
-    hs.properties.fill = am4core.color("#367B25");
+    hs.properties.fill = am4core.color("#FFC0CB");
 
     let heatLegend = chart.createChild(am4maps.HeatLegend);
   heatLegend.series = worldSeries;
