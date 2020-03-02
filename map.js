@@ -62,7 +62,7 @@ am4core.ready(function () {
   minRange.label.text = "Happy!";
   var maxRange = heatLegend.valueAxis.axisRanges.create();
   maxRange.value = heatLegend.maxValue;
-  maxRange.label.text = "unhappy!";
+  maxRange.label.text = "Unhappy!";
 
   heatLegend.valueAxis.renderer.labels.template.adapter.add("text", function(labelText) {
     return "";
