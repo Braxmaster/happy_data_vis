@@ -13,6 +13,7 @@
     <script src="https://naver.github.io/billboard.js/release/1.11.0/dist/billboard.min.js"></script>
     <script src="world-happiness-as-json.js"></script>
 
+
     <!-- Amchart -->
     <script src="https://www.amcharts.com/lib/4/core.js"></script>
     <script src="https://www.amcharts.com/lib/4/maps.js"></script>
@@ -20,6 +21,7 @@
     <script src="https://www.amcharts.com/lib/4/geodata/usaLow.js"></script>
     <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
     <script src="map.js"></script>
+    <script src="scatter_plot_working_time.js" defer></script>
 
 </head>
 
@@ -41,12 +43,12 @@
                 <div class="box2">
                     <h1 style="text-align: center;"> How much do you need to earn to make you happy? </h1>
                     <div class="wrapper">
-                        <div class="box1" style="font-size: 30px;">A big number!!!</div>
-                        <div class="box2">This is nice</div>
+                        <div class="box1" style="font-size: 25px;">$75.000</div>
+                        <div class="box2">For emotional well-being</div>
                     </div>
                     <div class="wrapper">
-                        <div class="box1" style="font-size: 30px;">Another big number!!!!</div>
-                        <div class="box2">Woooooow!</div>
+                        <div class="box1" style="font-size: 25px;">$95.000</div>
+                        <div class="box2">for life evaluation satisfaction</div>
                     </div>
                     <p>
                         ‘Money money money, must be funny in a rich man’s world’ is the lyrics to ABBA’s famous song.
@@ -69,6 +71,7 @@
                     I, as an individual, can do in order to change my happily ever after destiny? Of course there is!
                     You can exercise!</p>
             </div>
+            <div class="scatter_plot" id="scatterPlot" style="height: 500px; width: 100%;"></div>
         </div>
     </div>
     </div>
