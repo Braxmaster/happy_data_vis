@@ -21,7 +21,7 @@ var chart = new Chart(ctx, {
             pointBorderWidth: 4,
             borderWidth: 2,
             hoverBorderWidth: 10,
-            /*steppedLine: true,*/
+            /*steppedLine: true,*/ 
     
 
         }]
