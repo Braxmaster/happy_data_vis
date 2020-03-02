@@ -24,8 +24,8 @@
     <script src="scatter_plot_working_time.js" defer></script>
 
 
-    
-    
+
+
 
 </head>
 
@@ -33,21 +33,45 @@
     <div class="divider"></div>
     <div class="main">
         <div class="placeholder_text">
-            <h1 style="text-align: center;"> What makes us happy? </h1>
+            <h1 style="text-align: center; padding: 0px 32px 0px 32px;"> “Happiness is the meaning and the purpose of
+                life,
+                the whole aim and end of human existence.” </h1>
+            <p style="text-align: center; padding: 0px 32px 0px 32px; font-style: italic;">These are the words of
+                Aristotle, and his utterance holds even today. The value in happiness is global,
+                but it is safe to say that all humans have their emotional ups and downs. Sometimes we feel happy and
+                sometimes we feel low, but have you ever wondered</p>
+            <h1 style="text-align: center; padding: 0px 120px 0px 120px; font-style: italic; font-size: 26px;">
+                where the happiest people in the world live? <br>
+                Turns out they seem to live up in the North!
+            </h1>
             <div class="chart" id="chartdiv"></div>
             <div class="divider"></div>
-            <div class="banner"></div>
-            <div class="divider"></div>
+            <div class="banner">
+                <div class="wrapper">
+                    <div class="box1">
+                        <img class="top3" src="top3.svg" alt="Top 3" />
+                    </div>
+                    <div class="box2" style="font-size: 12px; padding: 16px; width: 95%;">The World Happiness Report
+                        have
+                        investigated happiness across the globe annually
+                        since 2012 and for the last two years Finland has been in the very top, followed by its
+                        neighbors Denmark and Norway. Sweden hits the list on 7th place. So is it safe to say that my
+                        happiness is dependent on where I live? The short answer is <strong>yes, to some
+                            extent.</strong> But there are
+                        also other important factors...</div>
+                </div>
+            </div>
+            <div class="divider" style="height: 32px;"></div>
             <div class="wrapper">
-                <div class="box1"> 
-                    <h1 style="text-align: center;"> Can money make you happy? </h1>
-                    <p> Turns out it does - up to a certain point </p>
+                <div class="box1">
+                    <h1 style="padding-left: 32px; margin-bottom: 0px;"> Can money make you happy? </h1>
+                    <p style="padding-left: 32px; margin-top: 0px;"> Turns out it does - up to a certain point </p>
                     <div class="graph">
                         <!--Line graph (Chartjs)-->
                         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-                        <canvas id="myChart"></canvas>
+                        <canvas id="myChart" style="width: 500px;"></canvas>
                         <script src="line.js"></script>
-                        </div>
+                    </div>
                 </div>
                 <div class="box2">
                     <h1 style="text-align: center;"> How much do you need to earn to make you happy? </h1>
@@ -74,13 +98,25 @@
                 </div>
             </div>
             <div>
-                <h1> What can i do to make myself happy? </h1>
-                <p> Some things you should now to make yourself happy! </p>
-                <p>So if I don’t have the possibility to neither raise my salary or leave the country - is there nothing
-                    I, as an individual, can do in order to change my happily ever after destiny? Of course there is!
-                    You can exercise!</p>
+                <h1 style="padding-left: 32px;"> What can i do to make myself happy? </h1>
+                <div class="wrapper">
+                    <div class="box1" style="padding-left: 32px; font-size: 16px;">So if I don’t have the possibility to neither raise my salary or leave the country
+                        - is there anything else I, as an individual, can do in order to change my happily ever after
+                        destiny?
+                        Of course there is: You can
+                        aim to work less!
+                        As contradictory to the data presented above as it sounds, as working more most likely will
+                        result in a larger income, which could contribute to a higher level of happiness, research also
+                        show a correlation between decreased working load and increased happiness.
+                        Not to surprising though, as working less naturally should give you more time for other
+                        activities important for your well-being and happiness, such as spending time with family and
+                        friends, which has also shown to increase happines</div>
+                    <div class="box2" style="width: 150%;">
+                        <div class="scatter_plot" id="scatterPlot" style="height: 500px; width: 100%;"></div>
+                    </div>
+                </div>
             </div>
-            <div class="scatter_plot" id="scatterPlot" style="height: 500px; width: 100%;"></div>
+
         </div>
     </div>
     </div>
