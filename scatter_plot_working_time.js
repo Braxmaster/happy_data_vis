@@ -43,6 +43,9 @@ function createGraph() {
                         return countryName;
                     }
                 }
+            },
+            names: {
+                "Happiness ranking" : "Happiness ranking"
             }
         },
         axis: {

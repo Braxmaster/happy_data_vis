@@ -1,7 +1,8 @@
 
 .body {
     font-family: "Roboto";
-    background-color: rosybrown;
+    background: rgb(164,202,207);
+    background: linear-gradient(180deg, rgba(164,202,207,1) 0%, rgba(255,255,255,1) 50%, rgba(164,202,207,1) 100%);
 }
 
 .header {
@@ -37,7 +38,6 @@
 
 .banner {
     width: 100%;
-    background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 43%, rgba(180,180,180,1) 100%);
 }
 
