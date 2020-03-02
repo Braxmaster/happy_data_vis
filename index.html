@@ -21,6 +21,10 @@
     <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
     <script src="map.js"></script>
 
+
+    
+    
+
 </head>
 
 <body class="body">
@@ -36,7 +40,12 @@
                 <div class="box1">
                     <h1 style="text-align: center;"> Can money make you happy? </h1>
                     <p> Turns out it does - up to a certain point </p>
-                    <div class="graph">Graph goes here!</div>
+                    <div class="graph">
+                        <!--Line graph (Chartjs)-->
+                        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+                        <canvas id="myChart"></canvas>
+                        <script src="line.js"></script>
+                        </div>
                 </div>
                 <div class="box2">
                     <h1 style="text-align: center;"> How much do you need to earn to make you happy? </h1>
