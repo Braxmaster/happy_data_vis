@@ -30,10 +30,10 @@ var chart = new Chart(ctx, {
         }, {
           label: 'Western Europe/Scandinavia',
             fill: false,    
-            pointBorderColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)', 'rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
-            pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
-            borderColor: 'rgb(177, 233, 245)',
-            backgroundColor: 'rgb(177, 233, 245)',
+            pointBorderColor: ['rgb(177, 233, 245)','rgb(177, 233, 245)','rgb(177, 233, 245)','rgb(177, 233, 245)', 'rgb(177, 233, 245)','rgb(177, 233, 245)','rgb(255,192,203)','rgb(177, 233, 245)'],
+            pointBackgroundColor: ['rgb(177, 233, 245)','rgb(177, 233, 245)','rgb(177, 233, 245)','rgb(177, 233, 245)','rgb(177, 233, 245)','rgb(177, 233, 245)','rgb(255,192,203)','rgb(177, 233, 245)'],
+            borderColor: 'rgb(41, 158, 184)',
+            backgroundColor: 'rgb(41, 158, 184)',
           
             data: [6.1, 6.4, 6.7, 7.4, 7.6, 7.75 ,7.8, 7.5], /*Data points that maps an annual income value to a happiness index */
             
