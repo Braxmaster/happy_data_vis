@@ -45,12 +45,12 @@ function createGraph() {
                 }
             },
             names: {
-                "Happiness ranking" : "Happiness ranking"
+                "Happiness ranking" : "Count"
             }
         },
         axis: {
             x: {
-                label: "Working time",
+                label: "Working time, hours per year",
                 tick: {
                     fit: false
                 }
