@@ -9,7 +9,7 @@ var chart = new Chart(ctx, {
 
         
         datasets: [{
-            label: 'Life Evaluation',
+            label: 'Global Life Evaluation',
             fill: false,    
             pointBorderColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)', 'rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
             pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
@@ -29,11 +29,17 @@ var chart = new Chart(ctx, {
 
     // Configuration options go here
     options: {
+      title: {
+            display: true,
+            text: 'Life Evaluation in Relation to Annual Income',
+            fontSize: 22,
+        },
         scales: {
             yAxes:[{
                 scaleLabel:{
                     display: true,
                     labelString: 'Happiness Index',
+                  
                 }
             }],
             xAxes:[{
