@@ -50,7 +50,7 @@ function createGraph() {
         },
         axis: {
             x: {
-                label: "Working time, hours per year",
+                label: "Working time (hours per year)",
                 tick: {
                     fit: false
                 }
