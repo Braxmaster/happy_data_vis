@@ -45,7 +45,7 @@ function createGraph() {
                 }
             },
             names: {
-                "Happiness ranking" : "Happiness ranking"
+                "Happiness ranking": "Happiness ranking"
             }
         },
         axis: {
@@ -58,6 +58,25 @@ function createGraph() {
             y: {
                 label: "Happiness ranking",
                 inverted: "true"
+            }
+        },
+        tooltip: {
+            show: true,
+            doNotHide: true,
+            grouped: true,
+            format: {
+                title: function (x) {
+                    countryName2 = ""
+                    workTimeData.forEach(element => {
+                        if (x == element) {
+                            countryName2 = countryData[workTimeData.indexOf(element)]
+                            return countryName2;
+                        }
+                    });
+                    return countryName2;
+                },
+                name: function (name, ratio, id, index) { return "" + name; },
+                value: function (value, ratio, id, index) { return "" + value; }
             }
         },
         bindto: "#scatterPlot"
