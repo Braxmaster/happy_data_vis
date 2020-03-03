@@ -5,19 +5,19 @@ var chart = new Chart(ctx, {
 
     // The data for our dataset
     data: {
-        labels: ['10000$', '25000$', '50000$', '75000$', '100000$'],
+        labels: ['$5 000', '$10 000', '$20 000', '$40 000', '$80 000', '$95 000', '$160 000'],
 
         
         datasets: [{
-            label: 'Average Happiness Index (American)',
+            label: 'Life Evaluation',
             fill: false,    
-            pointBorderColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(217, 148, 44)','rgb(41, 158, 184)'],
-            pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(217, 148, 44)','rgb(41, 158, 184)'],
+            pointBorderColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)', 'rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
+            pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
             borderColor: 'rgb(177, 233, 245)',
             backgroundColor: 'rgb(177, 233, 245)',
-            data: [3, 4.5, 7, 8, 7.5], /*Data points that maps an annual income value to a happiness index */
+            data: [5.1, 5.75, 6.5, 7.2, 7.65, 7.8, 7.2], /*Data points that maps an annual income value to a happiness index */
             pointRadius: 5,
-            pointStyle: ['circle','circle','circle','rect','circle'],
+            pointStyle: ['circle','circle','circle','circle', 'circle', 'rect','circle'],
             pointBorderWidth: 4,
             borderWidth: 2,
             hoverBorderWidth: 10,
