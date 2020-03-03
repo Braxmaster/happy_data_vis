@@ -27,6 +27,10 @@ am4core.ready(function () {
   // Set projection
   chart.projection = new am4maps.projections.Miller();
 
+  chart.seriesContainer.draggable = false;
+  chart.seriesContainer.resizable = false;
+  chart.maxZoomLevel = 1;
+
   // Series for World map
   var worldSeries = chart.series.push(new am4maps.MapPolygonSeries());
   worldSeries.exclude = ["AQ"];
@@ -68,10 +72,10 @@ am4core.ready(function () {
 
   var minRange = heatLegend.valueAxis.axisRanges.create();
   minRange.value = heatLegend.minValue;
-  minRange.label.text = "Happy!";
+  minRange.label.text = "1";
   var maxRange = heatLegend.valueAxis.axisRanges.create();
   maxRange.value = heatLegend.maxValue;
-  maxRange.label.text = "Unhappy!";
+  maxRange.label.text = "156";
 
   heatLegend.valueAxis.renderer.labels.template.adapter.add("text", function (labelText) {
     return "";
