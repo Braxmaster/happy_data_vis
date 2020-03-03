@@ -15,7 +15,16 @@ var chart = new Chart(ctx, {
             pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
             borderColor: 'rgb(177, 233, 245)',
             backgroundColor: 'rgb(177, 233, 245)',
-            data: [5.1, 5.75, 6.5, 7.2, 7.65, 7.8, 7.2], /*Data points that maps an annual income value to a happiness index */
+          
+            data: [{
+              label: 'Global',
+              data: [5.1, 5.75, 6.5, 7.2, 7.65, 7.8, 7.2]},
+                   {
+                     label: 'Western Europe/Scandinavia',
+                     data: [6.1, 6.4, 6.7, ],
+                   }/*Data points that maps an annual income value to a happiness index */
+            
+          
             pointRadius: 5,
             pointStyle: ['circle','circle','circle','circle', 'circle', 'rect','circle'],
             pointBorderWidth: 4,
@@ -38,7 +47,7 @@ var chart = new Chart(ctx, {
             yAxes:[{
                 scaleLabel:{
                     display: true,
-                    labelString: 'Happiness Index',
+                    labelString: 'Happiness Index (Mean)',
                   
                 }
             }],
