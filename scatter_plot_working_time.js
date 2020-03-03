@@ -45,7 +45,7 @@ function createGraph() {
                 }
             },
             names: {
-                "Happiness ranking" : "Count"
+                "Happiness ranking" : "Happiness Ranking"
             }
         },
         axis: {
@@ -60,6 +60,7 @@ function createGraph() {
                 inverted: "true"
             }
         },
+      tooltip: {},
         bindto: "#scatterPlot"
     });
 }
