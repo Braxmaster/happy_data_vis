@@ -11,8 +11,8 @@ var chart = new Chart(ctx, {
         datasets: [{
             label: 'Global Life Evaluation',
             fill: false,    
-            pointBorderColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)', 'rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
-            pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
+            pointBorderColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)', 'rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)','rgb(41, 158, 184)'],
+            pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)','rgb(41, 158, 184)'],
             borderColor: 'rgb(177, 233, 245)',
             backgroundColor: 'rgb(177, 233, 245)',
           
@@ -20,18 +20,18 @@ var chart = new Chart(ctx, {
             
           
             pointRadius: 5,
-            pointStyle: ['circle','circle','circle','circle', 'circle', 'rect','circle'],
+            pointStyle: ['circle','circle','circle','circle', 'circle', 'rect','circle','circle'],
             pointBorderWidth: 4,
             borderWidth: 2,
-            hoverBorderWidth: 10,
+            hoverBorderWidth: 6,
             /*steppedLine: true,*/ 
     
 
         }, {
           label: 'Western Europe/Scandinavia',
             fill: false,    
-            pointBorderColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)', 'rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
-            pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
+            pointBorderColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)', 'rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
+            pointBackgroundColor: ['rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(41, 158, 184)','rgb(255,192,203)','rgb(41, 158, 184)'],
             borderColor: 'rgb(177, 233, 245)',
             backgroundColor: 'rgb(177, 233, 245)',
           
@@ -39,15 +39,16 @@ var chart = new Chart(ctx, {
             
           
             pointRadius: 5,
-            pointStyle: ['circle','circle','circle','circle', 'circle', 'rect','circle'],
+            pointStyle: ['circle','circle','circle','circle', 'circle', 'circle', 'rect','circle'],
             pointBorderWidth: 4,
             borderWidth: 2,
-            hoverBorderWidth: 10,
+            hoverBorderWidth: 6,
         }]
     },
 
     // Configuration options go here
     options: {
+      
       title: {
             display: true,
             text: 'Life Evaluation in Relation to Annual Income',
