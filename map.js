@@ -40,9 +40,17 @@ am4core.ready(function () {
   for (var i = 0; i < worldHappy.length; i++) {
     data.push({
       id: worldHappy[i].id,
-      value: worldHappy[i].Ladder
+      value: worldHappy[i].Ladder,
+      freedomRanking: worldHappy[i].Freedom,
+      socialSupport: worldHappy[i]["Social support"],
+      corruption: worldHappy[i]["Corruption"],
+      Generosity: worldHappy[i]["Generosity"],
+      gpd: worldHappy[i]["Log of GDP\nper capita"],
+      hlthExp: worldHappy[i]["Healthy life\nexpectancy"],
+      country: worldHappy[i]["Country (region)"]
     })
   }
+
   worldSeries.data = data;
 
   worldSeries.heatRules.push({
@@ -57,11 +65,42 @@ am4core.ready(function () {
   polygonTemplate.fill = chart.colors.getIndex(0);
   polygonTemplate.nonScalingStroke = true;
 
+  polygonTemplate.events.on("hit", function (ev) {
+    var data = ev.target.dataItem.dataContext;
+    var info = document.getElementById("info");
+    if (data.value) {
+      info.innerHTML = "<h3> #" + data.value + " " + data.country + "</h3>";
+      info.innerHTML += "<p>" +
+      "Freedom Ranking: " + data.freedomRanking + "<br>" + 
+      "Social Support Ranking: " + data.socialSupport + "<br>" +
+      "Corruption: " + data.corruption + "<br>" + 
+      "Generosity Ranking: " + data.Generosity + "<br>" + 
+      "GPD Per Capita: " + data.gpd + "<br>" + 
+      "Life Expectancy Ranking: " + data.gpd + "<br>" + 
+      "</p>";
+    }
+    else {
+      info.innerHTML = "<h3> #" + "?" + " " + "Undefined" + "</h3>";
+      info.innerHTML += "<p>" +
+      "Freedom Ranking: " + "No data..." + "<br>" + 
+      "Social Support Ranking: " + "No data..." + "<br>" +
+      "Corruption: " + "No data..." + "<br>" + 
+      "Generosity Ranking: " + "No data..." + "<br>" + 
+      "GPD Per Capita: " + "No data..." + "<br>" + 
+      "Life Expectancy Ranking: " + "No data..." + "<br>" + 
+      "</p>";
+    }
+  });
+
   // Hover state
   var hs = polygonTemplate.states.create("hover");
   hs.properties.fill = am4core.color("#FFC0CB");
 
-  let heatLegend = chart.createChild(am4maps.HeatLegend);
+  chart.legend = new am4maps.Legend();
+  chart.legend.markers.template.disabled = true;
+  chart.legend.labels.template.text = "{value}";
+
+  /* let heatLegend = chart.createChild(am4maps.HeatLegend);
   heatLegend.series = worldSeries;
   heatLegend.align = "right";
   heatLegend.width = am4core.percent(25);
@@ -79,6 +118,6 @@ am4core.ready(function () {
 
   heatLegend.valueAxis.renderer.labels.template.adapter.add("text", function (labelText) {
     return "";
-  });
+  }); */
 
 }); // end am4core.ready()
