@@ -22,6 +22,7 @@
     <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
     <script src="map.js"></script>
     <script src="scatter_plot_working_time.js" defer></script>
+    <script src="happyDBvis.js" defer></script>
 
 
 
@@ -81,57 +82,15 @@
                     </div>
                 </div>
                 <div class="box2">
-                    <h1 style="text-align: left; margin-top: 50px;"> Exactly, how much do you need to earn annually to
-                        be happy? </h1>
-                    <div class="wrapper">
-                        <div class="box1" style="font-size: 25px;">~$75.000</div>
-                        <div class="box2" style="width: 150%;">for emotional well-being</div>
-                    </div>
-                    <div class="wrapper">
-                        <div class="box1" style="font-size: 25px;">$95.000</div>
-                        <div class="box2" style="width: 150%;">for life evaluation satisfaction</div>
-                    </div>
-                    <p style="line-height: 25px; font-size: 18px;">
-                        ‘Money money money, must be funny in a rich man’s world’ is the lyrics in ABBA’s famous song.
-                        How much money is fun though? Research show that, on a global level, individuals with an annual
-                        income of between $60,000 - $75,000 are likely to reach satiation of emotional well-being,
-                        referring to the emotional quality of an individual’s everyday experience. An income of $95,000
-                        will likely make you feel satiation on life evaluation, referring to the thoughts that people
-                        have about their life when they think about it.
-                        <br>
-                        <br> So if money really can buy happiness,
-
-                        <br> <span style="font-size: 20px;"> <strong>is there a ceiling to how happy you can get for
-                                money?</strong> </span>
-                        <br> According to researchers: <span style="font-size: 20px; line-height: 25px"> <strong>Yes,
-                                there is</strong> </span> - It turns out that as your annual income rise above
-                        $95,000, the happiness curve tend to flatten out, or even fall. Meaning that making more money
-                        could eventually steal your happiness from you. So a more accurate melody of ABBA’s hit would be
-                        <br> ‘Money money money, is only fun up to a certain threshold in an individuals world’
-                    </p>
+                    <h1 style="text-align: left; margin-top: 50px;"> Do not work to much though! </h1>
+                    <p style="padding-left: 32px; margin-top: 0px;"> Working time and happniess seem to corelate! </p>
+                    <div class="scatter_plot" id="scatterPlot" style="height: 500px; width: 100%;"></div>
                 </div>
             </div>
             <div>
                 <br style="line-height: 85px" />
                 <h1 style="padding-left: 32px; margin-top: 50px;"> What can I do to increase my happiness? </h1>
-                <div class="wrapper">
-                    <div class="box1" style="padding-left: 32px; font-size: 16px;line-height: 25px;">So if I don’t have
-                        the possibility to neither raise my salary or leave the country
-                        - is there anything else I, as an individual, can do in order to change my happily ever after
-                        destiny?
-                        <br> <br> Of course there is:
-                        <br> <span style="font-size: 20px;"> <strong>you can aim to work less!</strong> </span>
-                        <br style="line-height: 25px"> As contradictory to the data presented above as it sounds, as
-                        working more most likely will
-                        result in a larger income, which could contribute to a higher level of happiness, research also
-                        show a correlation between decreased working load and increased happiness.
-                        Not to surprising though, as working less naturally should give you more time for other
-                        activities important for your well-being and happiness, such as spending time with family and
-                        friends, which has also shown to increase happines.</div>
-                    <div class="box2" style="width: 120%;">
-                        <div class="scatter_plot" id="scatterPlot" style="height: 500px; width: 100%;"></div>
-                    </div>
-                </div>
+                <div id="barChartWords"></div>
             </div>
             <div class="placeholder_text">
                 <p style="text-align: center; padding: 32px 32px 0px 32px; color: #FFFFFF; line-height: 25px"> CIU187

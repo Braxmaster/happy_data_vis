@@ -128,7 +128,7 @@ var chart = new Chart(ctx, {
   // Configuration options go here
   options: {
     title: {
-      display: true,
+      display: false,
       text: "Life Evaluation in Relation to Annual Income",
       fontSize: 22
     },
