@@ -23,6 +23,8 @@
     <script src="map.js"></script>
     <script src="scatter_plot_working_time.js" defer></script>
     <script src="happyDBvis.js" defer></script>
+    <script src="lineNew.js" defer></script>
+    <script src="citer.js" defer></script>
 
 
 
@@ -34,7 +36,8 @@
     <div class="divider"></div>
     <div class="main">
         <div class="placeholder_text">
-            <h1 style="text-align: center; padding: 0px 32px 0px 32px; line-height: 40px"> What makes us happy? </h1>
+            <h1 style="text-align: center; padding: 0px 32px 0px 32px; line-height: 40px; font-size: 60px; color: #023c41;"> What makes
+                people happy? </h1>
             <p
                 style="text-align: center; padding: 0px 32px 0px 32px; font-style: italic; line-height: 25px; font-size: 18px;">
             </p>
@@ -48,58 +51,77 @@
                         <br> <br> <img class="top3" src="top3.svg" alt="Top 3" />
                     </div>
                     <div class="box2"
-                        style="font-size: 15px; padding: 16px; width: 95%; line-height: 25px; font-size: 18px;">The
+                        style="font-size: 15px; padding: 16px; width: 95%; line-height: 25px; font-size: 18px; color: #023c41;">The
                         World Happiness Report
                         has investigated happiness across the globe annually
                         since 2012. It ranks the countries from <strong>1</strong> (the happiest country) to
                         <strong>156</strong> (the unhappiest country),
                         and for the last two years Finland has been in the very top, followed by its
                         neighbors Denmark and Norway. Sweden hits the list on 7th place.<br>
-                        <br> So is it safe to say that my happiness depends on where I live?
-                        <br> The short answer is: <strong>yes, to some extent.</strong> But there are also other
-                        important factors...</div>
-                </div>
-            </div>
-            <div class="wrapper">
-                <div class="box1" style="width: 120%;">
-                    <div class="chart" id="chartdiv"></div>
-                </div>
-                <div class="box2" style="padding-top: 100px; padding-left: 32px;">
-                    <div id="info"></div>
-                </div>
-            </div>
-            <div class="divider" style="height: 32px;"></div>
-            <div class="wrapper">
-                <div class="box1">
-                    <h1 style="padding-left: 32px; margin-bottom: 0px; margin-top: 50px"> Can money buy happiness? </h1>
-                    <p style="padding-left: 32px; margin-top: 0px;"> Turns out it can - <strong> to a certain extent
-                        </strong> </p>
-                    <div class="graph">
-                        <!--Line graph (Chartjs)-->
-                        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-                        <canvas id="myChart" style="width: 500px; height: 500px"></canvas>
-                        <script src="line.js"></script>
                     </div>
                 </div>
-                <div class="box2">
-                    <h1 style="text-align: left; margin-top: 50px;"> Do not work to much though! </h1>
-                    <p style="padding-left: 32px; margin-top: 0px;"> Working time and happniess seem to corelate! </p>
-                    <div class="scatter_plot" id="scatterPlot" style="height: 500px; width: 100%;"></div>
+                <div class="wrapper">
+                    <div class="box1" style="width: 120%;">
+                        <div class="chart" id="chartdiv"></div>
+                    </div>
+                    <div class="box2" style="padding-top: 100px; padding-left: 32px;">
+                        <div id="info">
+                            <p style="color: #023c41;">
+                                Click a country on the map for more info.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider" style="height: 32px;"></div>
+                <hr>
+                <div class="wrapper">
+                    <div class="box1">
+                        <h1 style="padding-left: 32px; margin-bottom: 0px; margin-top: 50px; color: #023c41;"> Can money buy happiness?
+                        </h1>
+                        <p style="padding-left: 32px; margin-top: 0px; color: #023c41;"> Turns out it can - <strong> to a certain extent
+                            </strong> </p>
+                        <!--Line graph (Chartjs)-->
+                        <div id="lineNew" style="height: 500px; width: 100%;"></div>
+                    </div>
+                    <div class="box2">
+                        <h1 style="padding-left: 32px; margin-bottom: 0px; margin-top: 50px; color: #023c41;"> Do not work to much
+                            though!
+                        </h1>
+                        <p style="padding-left: 32px; margin-top: 0px; color: #023c41;"> Working to much can make you unhappy. </p>
+                        <div class="scatter_plot" id="scatterPlot" style="height: 500px; width: 100%;"></div>
+                    </div>
+                </div>
+                <div>
+                    <p style="padding-left: 32px; color: #023c41;"> Earning more money can increase your happiness up to a point. After a while the happiness
+                        increase flattens out and can even decrease. People who work less also seem to generally be
+                        happier. So a healthy work to life balance seems important. </p>
+                    <div class="divider" style="height: 32px;"></div>
+                    <hr>
+                    <h1 style="padding-left: 32px; margin-top: 50px; color: #023c41;"> Happiness in words. </h1>
+                    <p style="padding-left: 32px; color: #023c41;"> Happiness is a abstract concept. By analysing 10 000 quotes reasearch has shown that some common
+                        factors can be found. Here shown in the left pie-chart. To the right one of the quotes from the
+                        dataset are shown. Press to get a new random one. </p>
+                    <div class="wrapper">
+                        <div class="box1 click" onclick="give_me_a_quote()" style="position: relative;">
+                            <p id="cite"
+                                style="text-align: center; font-style: italic; font-size: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); color: #990099">
+
+                            </p>
+                        </div>
+                        <div class="box2">
+                            <div id="barChartWords"></div>
+                        </div>
+                    </div>
+                    <div class="placeholder_text">
+                        <p style="text-align: center; padding: 32px 32px 0px 32px; color: #FFFFFF; line-height: 25px">
+                            CIU187
+                            INFORMATION VISUALIZATION | FEBRUARY 2020
+                            <br> <strong> Group 10: Hannah Malmback, Jens Hulteberg, Lujia Peng, Rithika Kabilan, Yibin
+                                Huai
+                            </strong></p>
+                    </div>
                 </div>
             </div>
-            <div>
-                <br style="line-height: 85px" />
-                <h1 style="padding-left: 32px; margin-top: 50px;"> What can I do to increase my happiness? </h1>
-                <div id="barChartWords"></div>
-            </div>
-            <div class="placeholder_text">
-                <p style="text-align: center; padding: 32px 32px 0px 32px; color: #FFFFFF; line-height: 25px"> CIU187
-                    INFORMATION VISUALIZATION | FEBRUARY 2020
-                    <br> <strong> Group 10: Hannah Malmback, Jens Hulteberg, Lujia Peng, Rithika Kabilan, Yibin Huai
-                    </strong></p>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>

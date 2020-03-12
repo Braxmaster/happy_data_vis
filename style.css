@@ -1,8 +1,7 @@
 
 .body {
     font-family: "Roboto";
-    background: rgb(164,202,207);
-    background: linear-gradient(180deg, rgba(164,202,207,1) 0%, rgba(255,255,255,1) 50%, rgba(164,202,207,1) 100%);
+    background: #ffffff;
 }
 
 .header {
@@ -61,4 +60,8 @@
     display: table-cell;
     vertical-align: middle;
    /* border: solid 1px red;*/
+}
+
+.click:hover {
+    cursor: pointer;
 }

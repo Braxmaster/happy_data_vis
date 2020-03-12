@@ -29,6 +29,7 @@ function createChart() {
                 ratio: 0.5
             }
         },
+        
         bindto: "#barChartWords"
     });
 }
